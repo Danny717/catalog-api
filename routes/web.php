@@ -14,3 +14,18 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::resource('categories', 'categoryController');
+
+Route::resource('categories', 'categoryController');
+
+Route::resource('categories', 'categoryController');
+
+Route::resource('products', 'productController');
+
+Route::resource('categories', 'categoryController');
+
+Route::resource('categories', 'categoryController');
+
+Route::resource('products', 'productController');
